@@ -1,0 +1,27 @@
+{
+  "name": "webrtcfor_dataexposys_project_for_ashwanthteam",
+  "version": "0.0.1",
+  "description": "A website using WebRTC, Socket.io and Node.js.",
+  "main": "src/app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "LiveStream",
+    "Server"
+  ],
+  "author": "Ashwanth <ashwanth5111998@gmail.com>",
+  "license": "ISC"
+  
+}
